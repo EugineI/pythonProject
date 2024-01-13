@@ -1,4 +1,4 @@
-print("Your password must be at least 7 characters long and contain at least numbers and two 2 special characters")
+print("Your password must be at least 8 characters long and contain at least numbers and two 2 special characters")
 password = input("Enter your password:")
 print("Password:", password)
 numberCounter = 0
@@ -18,7 +18,7 @@ while counter < passLength:
         specialCharacterCounter += 1
     counter += 1
     index += 1
-if passLength >= 7 and numberCounter >= 2 and specialCharacterCounter >= 2:
+if passLength >= 8 and numberCounter >= 2 and specialCharacterCounter >= 2:
     print("Output:", "\nStrong")
 else:
     print("Output:", "\nWeak")
